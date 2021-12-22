@@ -1,0 +1,68 @@
+.userNotes {
+  border-radius: 0.4rem;
+  background: #fff;
+  padding: 0.5rem;
+  height: 25.7rem;
+  overflow-y: auto;
+  width: 12.5rem;
+}
+
+.userNotes li {
+  border: 1px solid #333;
+  border-radius: 0.4rem;
+  height: 4.5rem;
+  margin: 0.5rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrapper {
+  cursor: pointer;
+  width: 91%;
+  height: 100%;
+  padding: 0.5rem;
+}
+
+.data {
+  position: absolute;
+  top: 13%;
+  right: 15%;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.wrapper span {
+  margin-top: 0.3rem;
+  word-break: break-all;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.apagar {
+  position: absolute;
+  width: 2rem;
+  height: 1.5rem;
+  background-color: transparent;
+  border: none;
+  top: 8%;
+  right: 0%;
+  padding: 0;
+  cursor: pointer;
+}
+
+.apagar:hover {
+  animation: growUp 0.3s forwards;
+}
+
+.apagar img {
+  width: 60%;
+}
+
+@keyframes growUp {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}

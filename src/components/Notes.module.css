@@ -1,0 +1,7 @@
+.notes {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: #e7e6e6;
+  border-radius: .4rem;
+  padding: 1rem;
+}

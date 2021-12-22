@@ -1,0 +1,22 @@
+.input {
+  height: 1.5rem;
+  border: none; 
+  border-radius: .2rem;
+  border: 1px solid #eee;
+  transition: .2s;
+  padding: 0 .5rem;
+}
+
+.input:hover, 
+.input:focus {
+  outline: none;
+  border: 1px solid #3DA8EB;
+  box-shadow: 0 0 0 2px #338DC4;
+}
+
+label {
+  display: block;
+  margin: .5rem 0;
+  font-size: 1rem;
+  line-height: 1;
+}
